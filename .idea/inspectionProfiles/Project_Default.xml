@@ -1,0 +1,40 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="PyPackageRequirementsInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredPackages">
+        <value>
+          <list size="13">
+            <item index="0" class="java.lang.String" itemvalue="en_core_web_md" />
+            <item index="1" class="java.lang.String" itemvalue="pytest" />
+            <item index="2" class="java.lang.String" itemvalue="cython" />
+            <item index="3" class="java.lang.String" itemvalue="pre-commit" />
+            <item index="4" class="java.lang.String" itemvalue="black" />
+            <item index="5" class="java.lang.String" itemvalue="ml_datasets" />
+            <item index="6" class="java.lang.String" itemvalue="types-requests" />
+            <item index="7" class="java.lang.String" itemvalue="flake8" />
+            <item index="8" class="java.lang.String" itemvalue="types-setuptools" />
+            <item index="9" class="java.lang.String" itemvalue="mock" />
+            <item index="10" class="java.lang.String" itemvalue="pytest-timeout" />
+            <item index="11" class="java.lang.String" itemvalue="hypothesis" />
+            <item index="12" class="java.lang.String" itemvalue="types-mock" />
+          </list>
+        </value>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyPep8NamingInspection" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <option name="ignoredErrors">
+        <list>
+          <option value="N803" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyUnresolvedReferencesInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredIdentifiers">
+        <list>
+          <option value="list.close" />
+        </list>
+      </option>
+    </inspection_tool>
+  </profile>
+</component>
